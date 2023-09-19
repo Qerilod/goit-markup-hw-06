@@ -1,0 +1,47 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+button {
+  cursor: pointer;
+}
+img {
+  display: block;
+}
+.decoration {
+  list-style: none;
+}
+address {
+  font-style: normal;
+}
+input {
+  outline: none;
+  border: none;
+}
+
+.logo-header,
+.navigation-list-item,
+.contacts-list-item,
+.mobile-list-item,
+.mobile-contacts-list-item,
+.logo-footer {
+  text-decoration: none;
+}

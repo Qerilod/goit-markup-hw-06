@@ -15,8 +15,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap"
     />
-
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/index.css" />
   </head>
   <body>
     <header class="header-page">
@@ -40,6 +39,16 @@
             </li>
           </ul>
         </nav>
+        <button class="open-mobile-menu-btn">
+          <svg
+            class="open-mobile-menu-icon"
+            width="24"
+            height="24"
+            aria-label="mobile-menu-open-icon"
+          >
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
 
         <!-- Contacts -->
         <address class="address-container">
@@ -136,6 +145,7 @@
           <ul class="our-team-list decoration">
             <li class="our-team-list-item">
               <img
+                srcset="./images/photomark@2x.jpg 2x"
                 src="./images/photomark.jpg"
                 alt="Mark's photo"
                 width="264"
@@ -200,6 +210,7 @@
 
             <li class="our-team-list-item">
               <img
+                srcset="./images/phototom@2x.jpg 2x"
                 src="./images/phototom.jpg"
                 alt="Tom's photo"
                 width="264"
@@ -263,6 +274,7 @@
             </li>
             <li class="our-team-list-item">
               <img
+                srcset="./images/photocamila@2x.jpg 2x"
                 src="./images/photocamila.jpg"
                 alt="Kamila's photo"
                 width="264"
@@ -326,6 +338,7 @@
             </li>
             <li class="our-team-list-item">
               <img
+                srcset="./images/photodaniel@2x.jpg 2x"
                 src="./images/photodaniel.jpg"
                 alt="Daniel's photo"
                 width="264"
@@ -375,8 +388,8 @@
                     <a class="our-team-link" href="https://www.linkedin.com/">
                       <svg
                         class="our-team-svg-item"
-                        width="16px;"
-                        height="16px"
+                        width="16;"
+                        height="16"
                         aria-label="linkedin"
                       >
                         <use href="./images/icons.svg#icon-linkedin"></use>
@@ -397,10 +410,17 @@
             <li class="portfolio-list-item">
               <div class="image-wrapper">
                 <img
+                  srcset="
+                    ./images/panel.jpg           360w,
+                    ./images/panel@2x.jpg        720w,
+                    ./images/panel-tablet.jpg    356w,
+                    ./images/panel-tablet@2x.jpg 712w,
+                    ./images/panel-mobile.jpg    288w,
+                    ./images/panel-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px , (min-width: 768px) 356px , (max-width: 767px) 288px"
                   src="./images/panel.jpg"
                   alt="Banking App"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -418,10 +438,17 @@
             <li class="portfolio-list-item">
               <div class="image-wrapper">
                 <img
+                  srcset="
+                    ./images/twosmart.jpg           360w,
+                    ./images/twosmart@2x.jpg        720w,
+                    ./images/twosmart-tablet.jpg    356w,
+                    ./images/twosmart-tablet@2x.jpg 712w,
+                    ./images/twosmart-mobile.jpg    288w,
+                    ./images/twosmart-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/twosmart.jpg"
                   alt="Cashless Payment"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -439,10 +466,17 @@
             <li class="portfolio-list-item">
               <div class="image-wrapper">
                 <img
+                  srcset="
+                    ./images/loptop.jpg           360w,
+                    ./images/loptop@2x.jpg        720w,
+                    ./images/loptop-tablet.jpg    356w,
+                    ./images/loptop-tablet@2x.jpg 712w,
+                    ./images/loptop-mobile.jpg    288w,
+                    ./images/loptop-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/loptop.jpg"
                   alt="Meditation App"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -460,10 +494,17 @@
             <li class="portfolio-list-item">
               <div class="image-wrapper">
                 <img
+                  srcset="
+                    ./images/steeringwheel.jpg           360w,
+                    ./images/steeringwheel@2x.jpg        720w,
+                    ./images/steeringwheel-tablet.jpg    356w,
+                    ./images/steeringwheel-tablet@2x.jpg 712w,
+                    ./images/steeringwheel-mobile.jpg    288w,
+                    ./images/steeringwheel-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/steeringwheel.jpg"
                   alt="Taxi Service"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -479,10 +520,17 @@
             <li class="portfolio-list-item">
               <div class="image-wrapper">
                 <img
+                  srcset="
+                    ./images/phonepanel.jpg           360w,
+                    ./images/phonepanel@2x.jpg        720w,
+                    ./images/phonepanel-tablet.jpg    356w,
+                    ./images/phonepanel-tablet@2x.jpg 712w,
+                    ./images/phonepanel-mobile.jpg    288w,
+                    ./images/phonepanel-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/phonepanel.jpg"
                   alt="Screen Illustrations"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -499,10 +547,17 @@
             <li class="portfolio-list-item">
               <div class="image-wrapper">
                 <img
+                  srcset="
+                    ./images/women.jpg           360w,
+                    ./images/women@2x.jpg        720w,
+                    ./images/women-tablet.jpg    356w,
+                    ./images/women-tablet@2x.jpg 712w,
+                    ./images/women-mobile.jpg    288w,
+                    ./images/women-mobile@2x.jpg 576w
+                  "
+                  sizes="(min-width: 1158px) 360px, (min-width: 768px) 356px, (max-width: 767px) 288px"
                   src="./images/women.jpg"
                   alt="Online Courses"
-                  width="360"
-                  height="300"
                 />
                 <p class="overlay">
                   14 Stylish and User-Friendly App Design Concepts · Task
@@ -528,6 +583,7 @@
           <a class="logo-footer" href="./index.html"
             >Web<span class="span-footer">Studio</span></a
           >
+
           <!-- Advertising -->
 
           <p class="footer-text">
@@ -733,8 +789,10 @@
                   <use href="./images/icons.svg#icon-property"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a class="review-form-grivacy-link" href="">Privacy Policy</a>
+              <span class="text-form-container">
+                I accept the terms and conditions of the
+                <a class="review-form-grivacy-link" href="">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button class="review-form-sumbit" type="submit">Send</button>
@@ -743,5 +801,107 @@
     </div>
 
     <!-- =============Backdrop=========== -->
+
+    <!-- Mobile-menu -->
+    <div class="container mobile-menu">
+      <button class="mobile-menu-close-btn" type="button">
+        <svg
+          class="mobile-menu-close-btn-icon"
+          width="8"
+          height="8"
+          aria-label="mobile-menu-close-icon"
+        >
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <nav class="mobile-navigation">
+        <ul class="decoration mobile-list">
+          <li>
+            <a class="mobile-list-item" href=""
+              ><span class="current-mobile">Studio</span>
+            </a>
+          </li>
+          <li><a class="mobile-list-item" href="">Portfolio</a></li>
+          <li><a class="mobile-list-item" href="">Contacts</a></li>
+        </ul>
+      </nav>
+
+      <address class="mobile-address-container">
+        <ul class="decoration mobile-contacts-list">
+          <li>
+            <a class="mobile-contacts-list-item" href="tel:+110001111111"
+              ><span class="current-mobile"> +11 (000) 111-11-11</span>
+            </a>
+          </li>
+
+          <li>
+            <a
+              class="mobile-contacts-list-item"
+              href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+        </ul>
+      </address>
+
+      <div class="mobile-menu-social-container">
+        <ul class="mobile-menu-social-list-icon decoration">
+          <li class="mobile-menu-social-icon">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.instagram.com/"
+            >
+              <svg
+                class="mobile-menu-social-svg-item"
+                width="24"
+                height="24"
+                aria-label="instagram"
+              >
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="mobile-menu-social-icon">
+            <a class="mobile-menu-social-link" href="https://twitter.com/">
+              <svg
+                class="mobile-menu-social-svg-item"
+                width="24"
+                height="24"
+                aria-label="twitter"
+              >
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="mobile-menu-social-icon">
+            <a class="mobile-menu-social-link" href="https://www.facebook.com/">
+              <svg
+                class="mobile-menu-social-svg-item"
+                width="24"
+                height="24"
+                aria-label="facebook"
+              >
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+
+          <li class="mobile-menu-social-icon">
+            <a class="mobile-menu-social-link" href="https://www.linkedin.com/">
+              <svg
+                class="mobile-menu-social-svg-item"
+                width="24"
+                height="24"
+                aria-label="linkedin"
+              >
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
   </body>
 </html>
