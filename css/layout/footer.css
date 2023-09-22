@@ -167,20 +167,16 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-left: 108px;
-  }
-
-  .footer-advertising-container {
-    margin-right: 24px;
+    max-width: 584px;
+    gap: 72px 24px;
   }
 
   /* Subscribe */
-  .subscribe-container {
-    margin-top: 72px;
-  }
 
   .subscribe-form {
     display: flex;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 24px;
   }
 }
